@@ -6,8 +6,11 @@ A LightGBM regression model using weather and simple date-derived features (mont
 
 ## Required packages
 - pandas
+- numpy
+- matplotlib
+- scikit-learn
 - lightgbm
 
 ## How to run
 ```bash
-python validate_and_predict_lgbm.py
+python3 solver_lightGBM_dfFeature.py
